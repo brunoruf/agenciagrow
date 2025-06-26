@@ -1,0 +1,25 @@
+.modal-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  font-size: 26px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  z-index: 1;
+  padding: 0 22px;
+}
+
+.modal-case-title {
+    margin-top: 16px;
+    color: var(--light-blue);
+}
+
+.modal-case-description {
+    margin-bottom: 1rem;
+}

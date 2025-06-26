@@ -5,6 +5,7 @@ import About from './components/About';
 import Plano from './components/Plano';
 import Founder from './components/Founder';
 import Cases from './components/Cases';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
     </div>
     <Founder />
     <Cases />
+    <Contact />
     </>
   )
 }

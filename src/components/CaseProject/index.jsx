@@ -1,44 +1,20 @@
-import React, { useRef, useState } from 'react';
+import './style.css';
 
-
-const CaseProject = ({coverImage, videoUrl, title}) => {
-
-  const videoRef = useRef(null);
-
-  const [isPlaying, setIsPlaying] = useState(false);
-
-  const handlePlay = () => {
-    if (videoRef.current) {
-      videoRef.current.controls = true; 
-      videoRef.current.play();          
-      setIsPlaying(true);           
-    }
-  };
-
+const CaseProject = ({ title, onClick, backgroundImage }) => {
   return (
-    <section className='case-project-container'>
-        <div className='single-case-image'>
-                <video
-                    ref={videoRef}
-                    width="100%"
-                    height="auto"
-                    className="plano-video-element"
-                    poster={coverImage}
-                    controls={false} // começa sem os controles
-                >
-                  <source src={videoUrl} type="video/mp4" />
-                  Seu navegador não suporta o elemento de vídeo.
-                </video>
-
-                {!isPlaying && (
-                  <button className="play-button" onClick={handlePlay}>
-                    ▶
-                  </button>
-                )}
+    <section className='case-project-container' onClick={onClick}>
+      <div className='single-case-image' style={{ '--bg-image': `url(${backgroundImage})` }}>
+        <div className='case-project-overlay'></div>
+        <div className='case-project-content'>
+          <div className='case-project-play'>
+            <img src='/images/icons/eye-t.svg' alt='Play Icon' />
+            <p className='paragraph-sm case-project-see'>Ver Projeto</p>
+          </div>
+          <h3 className='paragraph-xl case-project-title'>{title}</h3>
         </div>
-        <h3 className='paragraph-xl'>{title}</h3>
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default CaseProject
+export default CaseProject;
