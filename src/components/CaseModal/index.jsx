@@ -20,7 +20,7 @@ const CaseModal = ({ onClose, title, videoUrl, description, coverImage }) => {
         ref={videoRef}
         width="100%"
         height="auto"
-        className="plano-video-element"
+        className="modal-video"
         poster={coverImage}
         controls={false}
         src={videoUrl}

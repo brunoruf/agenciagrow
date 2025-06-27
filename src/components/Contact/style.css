@@ -58,3 +58,28 @@
     background-color: var(--white);
     margin: 24px 0;
 }
+
+    .contact-message-info {
+        margin-top: 40px
+    }
+
+@media (min-width: 992px) {
+    #contact {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+    }
+
+    #contact form {
+        width: 50%;
+        margin-top: 90px;
+    }
+
+    .contact-phones {
+        width: 40%;
+    }
+
+    .contact-message-info {
+        display: none;
+    }
+}

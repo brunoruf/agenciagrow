@@ -22,9 +22,9 @@
   content: "";
   position: absolute;
   inset: 0;
-  padding: 3px;
+  padding: 1px;
   border-radius: 8px;
-  background: linear-gradient(90deg, rgba(142, 155, 248, 1), rgba(253, 101, 97, 1));
+  background: linear-gradient(90deg, rgba(142, 155, 248, 1), rgb(75, 75, 75));
   -webkit-mask:
     linear-gradient(#fff 0 0) content-box, 
     linear-gradient(#fff 0 0);

@@ -1,7 +1,7 @@
-#about {
+.about-container {
     display: flex;
     flex-direction: column;
-    margin: 1rem auto 3rem auto;
+    margin: 2rem auto 3rem auto;
   }
 
   .video {
@@ -17,4 +17,29 @@
     padding: 20px 0;
     margin: 0;
     border: none;
+  }
+
+  @media (min-width: 992px) {
+
+    .about-container {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem auto 4rem auto;
+  }
+
+    .about-content-container {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      width: 100%;
+      align-items: flex-start;
+    }
+
+    .video {
+      width: 45%;
+    }
+
+    .about-text {
+      width: 55%;
+    }
   }

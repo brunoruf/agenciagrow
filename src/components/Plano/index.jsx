@@ -15,9 +15,9 @@ const Plano = ({ number, title, subTitle, description, videoUrl, coverImage }) =
   };
 
   return (
-    <div className="plano1">
+    <div className="plano-par">
       <div className="plano-description">
-        <div className="plano-number-container">Peça <span className="plano-number">{number}</span> de 7</div>
+        <div className="plano-number-container-mobile">Peça <span className="plano-number">{number}</span> de 7</div>
         <div className="plano-infos">
           <div className="plano-video">
             <div className="plano-video-border">
@@ -42,10 +42,12 @@ const Plano = ({ number, title, subTitle, description, videoUrl, coverImage }) =
               </div>
             </div>
           </div>
-
-          <h2 className="title-l">{title}</h2>
-          <h3 className="plano-subtitle paragraph-xl">{subTitle}</h3>
-          <p className="plano-description paragraph">{description}</p>
+          <div className='plano-text'>
+            <div className="plano-number-container-desktop">Peça <span className="plano-number">{number}</span> de 7</div>
+            <h2 className="title-l">{title}</h2>
+            <h3 className="plano-subtitle paragraph-xl">{subTitle}</h3>
+            <p className="plano-description paragraph">{description}</p>
+          </div>
         </div>
       </div>
     </div>

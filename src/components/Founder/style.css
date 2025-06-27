@@ -7,7 +7,6 @@
 }
 
 .founder-content {
-
     margin-top: -60px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(173, 173, 173, 0.8) 70%);
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -31,4 +30,26 @@
     background-image: url('/images/zehnery.png');
     background-size: cover;
     border-radius: 48px;
+}
+
+
+
+
+@media (min-width: 992px) {
+
+.founder-content {
+    width: 70%;
+    justify-content: center;
+}
+
+.founder-content {
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.founder-content p {
+    text-align: left;
+    width: 70%;
+}
+
 }

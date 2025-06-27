@@ -25,9 +25,9 @@ const Contact = () => {
   return (
     <section id="contact" className="container">
     
-      <div>
+      <div className='contact-phones'>
         <h2 className="title-xl gradient cases-title">Entre em contato</h2>
-        <p className="paragraph-md">Nossa equipe entrará em contato o mais breve possível.</p>
+        <p className="paragraph-md">Abaixo nossos telefones de contato. Entraremos em contato o mais breve possível.</p>
         <span className='contact-divider'></span>
         <div className='contact-numbers'>
             <div>
@@ -39,7 +39,7 @@ const Contact = () => {
                 <h4 className='contact-type-title paragraph-sm'>WhatsApp</h4>
                 <a href="https://wa.me/5511999999999" className='title contact-phone'>(11) 99999-9999</a>
             </div>
-            <span className='contact-divider'></span>
+            <p className="paragraph-md contact-message-info">Ou envie uma mensagem que responderemos em breve.</p>
         </div>
       </div>
       <form className="contact-form" onSubmit={handleSubmit}>

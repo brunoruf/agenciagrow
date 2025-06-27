@@ -1,7 +1,6 @@
 #root {
   width: 100%;
   margin: 0 auto;
-
 }
 
 :root {
@@ -221,4 +220,12 @@ strong {
 
 html {
   scroll-behavior: smooth;
+}
+
+
+
+@media (min-width: 992px) {
+  .container {
+      padding: 0 40px;
+  }
 }
