@@ -6,13 +6,15 @@ const About = () => {
     <div id="about" className='container about-container'>
         <h2 className='title-xl gradient'>Sobre a Grow</h2>
         <div className='about-content-container'>
-          <div className='video'>
-            
+          {/* <div className='video'>
+              
+               
               <video width="100%" height="auto" controls>
                   <source src="src/assets/videos/placeholder-video.mp4" type="video/mp4" />
                   Seu navegador não suporta o elemento de vídeo.
               </video>
-          </div> 
+          </div> */}
+          <img src="/images/agency-placeholder.jpg" alt="Imagem sobre a Grow" className='about-image' />
           <div className='about-text'>
             <p className='paragraph'>Somos mais que uma agência de marketing: somos um <strong>ecossistema de soluções criativas, tecnológicas e estratégicas</strong> para marcas que querem crescer, se destacar e se conectar de verdade com seu público.</p>
             <p className='paragraph'>Acreditamos no poder das <strong>histórias bem contadas</strong>, das ideias criativas e inteligentes e da valorização da personalidade. Por isso, desenvolvemos campanhas que <strong>emocionam, engajam e geram resultados reais</strong>, dentro e fora das redes.</p>

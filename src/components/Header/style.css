@@ -101,6 +101,7 @@
 
 .header-desktop {
     display: none;
+
 }
 
 .header-social-icon {
@@ -131,9 +132,17 @@
     z-index: 2;
     padding: 1rem;
     display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .header-desktop-content {
+    width: 100vw;
+    max-width: 1280px;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    box-sizing: border-box;
   }
 
   .header-mobile {

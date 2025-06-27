@@ -24,31 +24,31 @@ const Cases = () => {
   const cases = [
     {
       title: 'Masterchef Brasil',
-      videoUrl: '/videos/peca1.mp4',
-      description: 'Este é o projeto A, com um vídeo incrível.',
+      videoUrl: '/videos/peca1-web.mp4',
+      description: 'Descrição do Case A.',
       backgroundImage:'/images/cases-images/cover-masterchef.webp',
     },
     {
-      title: 'Projeto B',
-      videoUrl: '/videos/peca2.mp4',
-      description: 'Este é o projeto B, com ótimos resultados.',
+      title: 'Case B',
+      videoUrl: '/videos/peca2-web.mp4',
+      description: 'Descrição do Case B.',
     },
     {
-      title: 'Projeto C',
-      videoUrl: '/videos/peca3.mp4',
-      description: 'Este é o projeto C, bem sucedido também.',
+      title: 'Case C',
+      videoUrl: '/videos/peca3-web.mp4',
+      description: 'Descrição do Case C.',
     },    {
-      title: 'Projeto C',
-      videoUrl: '/videos/peca3.mp4',
-      description: 'Este é o projeto C, bem sucedido também.',
+      title: 'Case D',
+      videoUrl: '/videos/peca3-web.mp4',
+      description: 'Descrição do Case C.',
     },    {
-      title: 'Projeto C',
-      videoUrl: '/videos/peca3.mp4',
-      description: 'Este é o projeto C, bem sucedido também.',
+      title: 'Case E',
+      videoUrl: '/videos/peca3-web.mp4',
+      description: 'Descrição do Case C.',
     },    {
-      title: 'Projeto C',
-      videoUrl: '/videos/peca3.mp4',
-      description: 'Este é o projeto C, bem sucedido também.',
+      title: 'Case F',
+      videoUrl: '/videos/peca3-web.mp4',
+      description: 'Descrição do Case C.',
     },
   ];
 

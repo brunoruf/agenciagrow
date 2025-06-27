@@ -24,49 +24,49 @@ function App() {
                     number={1} title={'Primeiro Contato'} 
                     subTitle={'Nos conhecendo'} 
                     description={'Entendemos suas dores, necessidades e alinhamos os objetivos do projeto.'} 
-                    videoUrl={'src/assets/videos/peca1.mp4'}
+                    videoUrl={'/videos/peca1-web.mp4'}
                     coverImage={'/images/videos-cover/peca1.jpg'} 
                    />
                   <Plano 
                     number={2} title={'Imersão'} 
                     subTitle={'Mergulho na sua marca'} 
                     description={'Analisamos sua empresa, conhecemos o ambiente perfis das equipes e todo o histórico de ações de marketing.'} 
-                    videoUrl={'src/assets/videos/peca2.mp4'}
+                    videoUrl={'/videos/peca2-web.mp4'}
                     coverImage={'/images/videos-cover/peca2.jpg'}  
                   />
                   <Plano 
                     number={3} title={'Pesquisa Estratégica'} 
                     subTitle={'Inteligência que Gera Resultado'} 
                     description={'Realizamos uma pesquisa aprofundada de mercado, concorrência, público e posicionamento atual.'} 
-                    videoUrl={'src/assets/videos/peca3.mp4'}
+                    videoUrl={'/videos/peca3-web.mp4'}
                     coverImage={'/images/videos-cover/peca3.jpg'}  
                   />
                   <Plano                 
                     number={4} title={'Mentoria para o Time'} 
                     subTitle={'Alinhando Visões, Potencializando Times'} 
                     description={'Orientamos seu time interno sobre processos, comunicação, marketing e operação, garantindo que todos estejam alinhados para os próximos passos.'} 
-                    videoUrl={'/videos/peca4.mp4'}
+                    videoUrl={'/videos/peca4-web.mp4'}
                     coverImage={'/images/videos-cover/peca4.jpg'}  
                   />
                   <Plano 
                     number={5} title={'Criativo em Ação'} 
                     subTitle={'Ideias Que Ganham Vida'} 
                     description={'Desenvolvemos campanhas criativas, roteiros, vídeos, fotos, design e narrativas que conectam sua marca com seu público.'} 
-                    videoUrl={'/videos/peca5.mp4'}
+                    videoUrl={'/videos/peca5-web.mp4'}
                     coverImage={'/images/videos-cover/peca5.jpg'}  
                   />
                   <Plano 
                     number={6} title={'Ativação de Campanhas'} 
                     subTitle={'Hora de Ganhar o Mundo'} 
                     description={'Colocamos no ar campanhas estratégicas através de tráfego pago, redes sociais, inbound, outbound marketing e marketing tradicional, maximizando alcance e conversões.'} 
-                    videoUrl={'/videos/peca6.mp4'}
+                    videoUrl={'/videos/peca6-web.mp4'}
                     coverImage={'/images/videos-cover/peca6.jpg'}  
                   />
                   <Plano 
                     number={7} title={'Suporte Contínuo'} 
                     subTitle={'Crescendo Juntos Todos os Dias'} 
                     description={'Acompanhamento constante dos resultados, otimizações, relatórios, suporte no dia a dia e disponibilização da nossa equipe de social media para gestão contínua.'} 
-                    videoUrl={'/videos/peca7.mp4'}
+                    videoUrl={'/videos/peca7-web.mp4'}
                     coverImage={'/images/videos-cover/peca7.jpg'}  
                   />
               </div>

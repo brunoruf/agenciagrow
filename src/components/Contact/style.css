@@ -63,6 +63,16 @@
         margin-top: 40px
     }
 
+    .form-submit{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .form-feedback {
+        margin: 0;
+    }
+
 @media (min-width: 992px) {
     #contact {
         display: flex;
