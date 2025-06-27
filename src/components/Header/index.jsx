@@ -12,7 +12,7 @@ const Header = () => {
     <>
       <div className="header-mobile">
         <img
-          src="src/assets/images/logo-grow-dkbg.svg"
+          src="/images/logo-grow-dkbg.svg"
           alt="Logo da Grow"
           className="logo shadow"
         />
@@ -61,7 +61,7 @@ const Header = () => {
       </div>
       <div className='header-desktop'>
           <img
-            src="src/assets/images/logo-grow-dkbg.svg"
+            src="/images/logo-grow-dkbg.svg"
             alt="Logo da Grow"
             className="logo shadow"
           />
