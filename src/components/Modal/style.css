@@ -16,6 +16,7 @@
   box-shadow: 0 0 20px rgba(122, 44, 99, 0.2);
   position: relative;
   box-sizing: border-box;
+  width: 100%;
 }
 
 .modal-close {
@@ -23,13 +24,23 @@
   top: -20px;
   right: -10px;
   cursor: pointer;
-  color: var(--text-color);
+  color: var(--white);
   font-size: 1.5rem;
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 300;
+  background-color: black;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+@media (min-width: 992px) {
+    .modal-content {
+        width: auto;
+    }
+    
 }
