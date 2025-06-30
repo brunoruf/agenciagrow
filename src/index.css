@@ -17,7 +17,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --main-gradient: linear-gradient(90deg,rgba(142, 155, 248, 1) 0%, rgba(253, 101, 97, 1) 100%);
+  --main-gradient: linear-gradient(90deg, #8e9bf8 0%, #fd6561 100%);
   --light-blue: #8D9CF9;
   --white: #FFFFFF;
   --dark: #1F1F23;
@@ -190,12 +190,15 @@ strong {
   margin-top: 1rem;
 }
 
-
-
 .gradient {
   background: var(--main-gradient);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: black;
+  display: inline-block;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 
 .button {

@@ -54,7 +54,7 @@ const Cases = () => {
 
   return (
     <div id="cases" className='cases-container'>
-      <h2 className="title-xl gradient cases-title">Cases de Sucesso</h2>
+      <h2 className="title-xl cases-title"><span className='gradient'>Cases de Sucesso</span></h2>
 
       <Swiper
         slidesPerView="auto"

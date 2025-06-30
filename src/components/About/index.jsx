@@ -4,7 +4,7 @@ import './style.css'
 const About = () => {
   return (
     <div id="about" className='container about-container'>
-        <h2 className='title-xl gradient'>Sobre a Grow</h2>
+        <h2 className='title-xl'><span className='gradient'>Sobre a Grow</span></h2>
         <div className='about-content-container'>
           {/* <div className='video'>
               

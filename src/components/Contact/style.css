@@ -49,6 +49,7 @@
     display: block;
     margin: .25rem 0;
     font-weight: 500;
+    color: var(--light-blue);
 }
 
 .contact-divider {

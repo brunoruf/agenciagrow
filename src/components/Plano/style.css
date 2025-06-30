@@ -143,19 +143,22 @@
     .plano-container {
       flex-direction: row;
       flex-wrap: wrap;
+      gap: 55px;
     }
 
     .plano-infos {
       flex-direction: row;
       gap: 40px;
+      justify-content: center;
     }
 
     .plano-video {
-      width: 40%;
+      width: 47%;
     }
 
     .plano-text {
       width: 60%;
+      max-width: 400px;
     }
 
     .plano-number-container-desktop  {
@@ -165,4 +168,23 @@
     .plano-number-container-mobile  {
       display: none;
     }
+
+    .plano-infos.invertido {
+      flex-direction: row-reverse;
+  }
+
+    .plano-title {
+    font-size: 2rem;      /* passa de title-l para algo entre title-l e title-xl */
+    font-weight: 600;     /* se quiser reforçar */
+  }
+    .plano-subtitle {
+      font-size: 1.5rem;   /* um pouco maior que paragraph-xl */
+      font-weight: 500;
+      margin-top: 1rem;
+  }
+    .plano-description {
+      font-size: 1.15rem;      /* maior que o padrão paragraph (0.875rem) */
+      line-height: 1.5rem;
+      margin-top: 1.2rem;
+  }
   }
