@@ -1,4 +1,5 @@
 #contact {
+    padding-top: 32px;
     padding-bottom: 40px;
 }
 
@@ -83,7 +84,7 @@
 
     #contact form {
         width: 50%;
-        margin-top: 90px;
+        margin-top: 80px;
     }
 
     .contact-phones {

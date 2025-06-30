@@ -1,16 +1,17 @@
+// src/components/Cases.jsx
 import React, { useState } from 'react';
 import './style.css';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 
-import 'swiper/css';
+import 'swiper/css'; 
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 import CaseProject from '../CaseProject';
-import CaseModal from '../CaseModal'; // novo componente de modal
+import CaseModal from '../CaseModal';
 
 const Cases = () => {
   const [modalAberto, setModalAberto] = useState(false);
@@ -24,69 +25,124 @@ const Cases = () => {
   const cases = [
     {
       title: 'Masterchef Brasil',
-      videoUrl: '/videos/peca1-web.mp4',
-      description: 'Descrição do Case A.',
-      backgroundImage:'/images/cases-images/cover-masterchef.webp',
+      embedId: 'ESRsGLE0Fac',
+      description: '',
+      backgroundImage: '/images/cases-images/cover-masterchef.jpg',
     },
     {
-      title: 'Case B',
-      videoUrl: '/videos/peca2-web.mp4',
-      description: 'Descrição do Case B.',
+      title: 'Casamento às Cegas',
+      embedId: 'GiPXscUkTXo',
+      description: '',
+      backgroundImage: '/images/cases-images/cover-casamento.jpg',
     },
     {
-      title: 'Case C',
-      videoUrl: '/videos/peca3-web.mp4',
-      description: 'Descrição do Case C.',
-    },    {
-      title: 'Case D',
-      videoUrl: '/videos/peca3-web.mp4',
-      description: 'Descrição do Case C.',
-    },    {
-      title: 'Case E',
-      videoUrl: '/videos/peca3-web.mp4',
-      description: 'Descrição do Case C.',
-    },    {
-      title: 'Case F',
-      videoUrl: '/videos/peca3-web.mp4',
-      description: 'Descrição do Case C.',
+      title: 'The Masked Singer Brasil',
+      embedId: '9nCLqTZ5H7w',
+      description: '',
+      backgroundImage: '/images/cases-images/cover-maskedsinger.jpg',
     },
+    {
+      title: 'Ilhados com a Sogra',
+      embedId: 'fOy2YphyXXk',
+      description: '',
+      backgroundImage: '/images/cases-images/cover-ilhados.jpg',
+    },
+    {
+      title: 'The Bridge Brasil',
+      embedId: '6iM7B90VC9A',
+      description: '',
+      backgroundImage: '/images/cases-images/cover-thebridge.jpg',
+    },
+    {
+      title: 'Quilos Mortais Brasil',
+      embedId: 'vSDhrsczk5I',
+      description: '',
+      backgroundImage: '/images/cases-images/cover-quilosmortais.jpg',
+    },
+    {
+      title: 'Nova Cena',
+      embedId: 'l71txqn2-9U',
+      description: '',
+      backgroundImage: '/images/cases-images/cover-novacena.jpg',
+    },
+    {
+      title: 'No Limite Amazônia',
+      embedId: 'ju8_B754YKY',
+      description: '',
+      backgroundImage: '/images/cases-images/cover-nolimite.jpg',
+    },
+    {
+      title: 'Minha Mãe Com Seu Pai',
+      embedId: 'dbKYeRCVRnw',
+      description: '',
+      backgroundImage: '/images/cases-images/cover-minhamae.jpg',
+    },
+    {
+      title: 'Luva de Pedreiro: O Rei da Jogada',
+      embedId: 'TDi4yirmR00',
+      description: '',
+      backgroundImage: '/images/cases-images/cover-luvadepedreiro.jpg',
+    },
+    {
+      title: 'Iron Chef',
+      embedId: 'cTCPgwfdn08',
+      description: '',
+      backgroundImage: '/images/cases-images/cover-ironchef.jpg',
+    },
+    {
+      title: 'Muquiranas',
+      embedId: 'iTVr6IxccSU',
+      description: '',
+      backgroundImage: '/images/cases-images/cover-muquiranas.jpg',
+    },
+    {
+      title: 'Pesadelo na Cozinha',
+      embedId: 'xhB9UKyMO98',
+      description: '',
+      backgroundImage: '/images/cases-images/cover-pesadelonacozinha.jpg',
+    },
+    {
+      title: 'Desapegue se for Capaz',
+      embedId: 'rX02m_m-ugA',
+      description: '',
+      backgroundImage: '/images/cases-images/cover-desapegue.jpg',
+    },
+    
   ];
 
   return (
-    <div id="cases" className='cases-container'>
-      <h2 className="title-xl cases-title"><span className='gradient'>Cases de Sucesso</span></h2>
+    <div id="cases" className="cases-container container">
+      <h2 className="title-xl cases-title">
+        <span className="gradient">Cases de Sucesso</span>
+      </h2>
 
       <Swiper
         slidesPerView="auto"
         spaceBetween={16}
-        direction="horizontal"
-        loop={false}
-        navigation={true}
+        navigation
         scrollbar={{ draggable: true }}
         modules={[Navigation]}
         className="mySwiper"
       >
-        {cases.map((item, index) => (
-          <SwiperSlide className="custom-slide" key={index}>
+        {cases.map((item, idx) => (
+          <SwiperSlide className="custom-slide" key={idx}>
             <CaseProject
               title={item.title}
-              videoUrl={item.videoUrl}
               onClick={() => abrirModal(item)}
-              backgroundImage={item.backgroundImage || '/images/cases-images/cover-default.jpg'}
+              backgroundImage={item.backgroundImage}
             />
           </SwiperSlide>
         ))}
       </Swiper>
 
-{modalAberto && (
-  <CaseModal
-    onClose={() => setModalAberto(false)}
-    title={modalData.title}
-    videoUrl={modalData.videoUrl}
-    description={modalData.description}
-  />
-)}
-
+      {modalAberto && (
+        <CaseModal
+          onClose={() => setModalAberto(false)}
+          title={modalData.title}
+          description={modalData.description}
+          embedId={modalData.embedId}
+        />
+      )}
     </div>
   );
 };

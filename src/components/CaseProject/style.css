@@ -1,5 +1,6 @@
 .case-project-container {
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .case-project-container :hover {
@@ -8,15 +9,16 @@
 
 .single-case-image {
   position: relative;
-  background-image: var(--bg-image);
-  background-color: rgb(77, 77, 77);
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: rgb(77,77,77);
   background-size: cover;
   background-position: center;
-  width: 100%;
-  height: 280px;
   border-radius: 8px;
   overflow: hidden;
+  height: 280px;
 }
+
 
 .single-case-image::before {
   content: "";
@@ -38,7 +40,7 @@
 .case-project-overlay {
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 1;
 }
 
@@ -50,8 +52,7 @@
   justify-content: center;
   height: 100%;
   flex-direction: column;
-  gap: 40px;
-  margin-top: 20px;
+  gap:30px;
 }
 
 .case-project-play {

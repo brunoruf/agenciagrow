@@ -84,7 +84,7 @@ const Contact = () => {
       <div className="contact-phones">
         <h2 className="title-xl gradient cases-title">Entre em contato</h2>
         <p className="paragraph-md">
-          Abaixo nossos telefones de contato. Entraremos em contato o mais breve possível.
+          Conecte-se ao nosso Hub Criativo.
         </p>
         <span className="contact-divider"></span>
         <div className="contact-numbers">

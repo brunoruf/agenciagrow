@@ -169,7 +169,7 @@ strong {
 .paragraph-md {
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
-  font-variation-settings: 'wght' 400;
+  font-weight: 400;
   margin-top: 1.25rem;
   line-height: 1.25rem;
 }
