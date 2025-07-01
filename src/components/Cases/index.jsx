@@ -24,10 +24,10 @@ const Cases = () => {
 
   const cases = [
     {
-      title: 'Masterchef Brasil',
-      embedId: 'ESRsGLE0Fac',
+      title: 'The Bridge Brasil',
+      embedId: '6iM7B90VC9A',
       description: '',
-      backgroundImage: '/images/cases-images/cover-masterchef.jpg',
+      backgroundImage: '/images/cases-images/cover-thebridge.jpg',
     },
     {
       title: 'Casamento às Cegas',
@@ -36,22 +36,28 @@ const Cases = () => {
       backgroundImage: '/images/cases-images/cover-casamento.jpg',
     },
     {
-      title: 'The Masked Singer Brasil',
-      embedId: '9nCLqTZ5H7w',
-      description: '',
-      backgroundImage: '/images/cases-images/cover-maskedsinger.jpg',
-    },
-    {
       title: 'Ilhados com a Sogra',
       embedId: 'fOy2YphyXXk',
       description: '',
       backgroundImage: '/images/cases-images/cover-ilhados.jpg',
     },
     {
-      title: 'The Bridge Brasil',
-      embedId: '6iM7B90VC9A',
+      title: 'Masterchef Brasil',
+      embedId: 'ESRsGLE0Fac',
       description: '',
-      backgroundImage: '/images/cases-images/cover-thebridge.jpg',
+      backgroundImage: '/images/cases-images/cover-masterchef.jpg',
+    },
+    {
+      title: 'Nova Cena',
+      embedId: 'l71txqn2-9U',
+      description: '',
+      backgroundImage: '/images/cases-images/cover-novacena.jpg',
+    },
+    {
+      title: 'Luva de Pedreiro: O Rei da Jogada',
+      embedId: 'TDi4yirmR00',
+      description: '',
+      backgroundImage: '/images/cases-images/cover-luvadepedreiro.jpg',
     },
     {
       title: 'Quilos Mortais Brasil',
@@ -60,10 +66,10 @@ const Cases = () => {
       backgroundImage: '/images/cases-images/cover-quilosmortais.jpg',
     },
     {
-      title: 'Nova Cena',
-      embedId: 'l71txqn2-9U',
+      title: 'Iron Chef',
+      embedId: 'cTCPgwfdn08',
       description: '',
-      backgroundImage: '/images/cases-images/cover-novacena.jpg',
+      backgroundImage: '/images/cases-images/cover-ironchef.jpg',
     },
     {
       title: 'No Limite Amazônia',
@@ -78,28 +84,22 @@ const Cases = () => {
       backgroundImage: '/images/cases-images/cover-minhamae.jpg',
     },
     {
-      title: 'Luva de Pedreiro: O Rei da Jogada',
-      embedId: 'TDi4yirmR00',
+      title: 'Pesadelo na Cozinha',
+      embedId: 'xhB9UKyMO98',
       description: '',
-      backgroundImage: '/images/cases-images/cover-luvadepedreiro.jpg',
+      backgroundImage: '/images/cases-images/cover-pesadelonacozinha.jpg',
     },
     {
-      title: 'Iron Chef',
-      embedId: 'cTCPgwfdn08',
+      title: 'The Masked Singer Brasil',
+      embedId: '9nCLqTZ5H7w',
       description: '',
-      backgroundImage: '/images/cases-images/cover-ironchef.jpg',
+      backgroundImage: '/images/cases-images/cover-maskedsinger.jpg',
     },
     {
       title: 'Muquiranas',
       embedId: 'iTVr6IxccSU',
       description: '',
       backgroundImage: '/images/cases-images/cover-muquiranas.jpg',
-    },
-    {
-      title: 'Pesadelo na Cozinha',
-      embedId: 'xhB9UKyMO98',
-      description: '',
-      backgroundImage: '/images/cases-images/cover-pesadelonacozinha.jpg',
     },
     {
       title: 'Desapegue se for Capaz',

@@ -12,11 +12,10 @@ const Contact = () => {
   const [feedbackMessage, setFeedbackMessage] = useState('');
   const [loading, setLoading] = useState(false);
 
-  // formata string de dígitos para "(XX) XXXXX-XXXX"
   const formatTelefone = (value) => {
     const digits = value.replace(/\D/g, '');
     const ddd = digits.substring(0, 2);
-    const rest = digits.substring(2, 11); // até 9 dígitos após DDD
+    const rest = digits.substring(2, 11);
 
     if (rest.length === 0) {
       return ddd ? `(${ddd}` : '';
