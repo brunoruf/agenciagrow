@@ -37,17 +37,17 @@ function App() {
   },
   {
     number: 4,
-    title: 'Mentoria para o Time',
-    subTitle: 'Alinhando Visões, Potencializando Times',
-    description: 'Orientamos seu time interno sobre processos, comunicação, marketing e operação, garantindo que todos estejam alinhados para os próximos passos.',
+    title: 'Criativo em Ação',
+    subTitle: 'Ideias Que Ganham Vida',
+    description: 'Desenvolvemos campanhas criativas, roteiros, vídeos, fotos, design e narrativas que conectam sua marca com seu público.',
     videoUrl: '/videos/peca4-web.mp4',
     coverImage: '/images/videos-cover/peca4.jpg'
   },
   {
     number: 5,
-    title: 'Criativo em Ação',
-    subTitle: 'Ideias Que Ganham Vida',
-    description: 'Desenvolvemos campanhas criativas, roteiros, vídeos, fotos, design e narrativas que conectam sua marca com seu público.',
+    title: 'Mentoria para o Time',
+    subTitle: 'Alinhando Visões, Potencializando Times',
+    description: 'Orientamos seu time interno sobre processos, comunicação, marketing e operação, garantindo que todos estejam alinhados para os próximos passos.',
     videoUrl: '/videos/peca5-web.mp4',
     coverImage: '/images/videos-cover/peca5.jpg'
   },
