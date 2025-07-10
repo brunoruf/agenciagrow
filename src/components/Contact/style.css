@@ -1,6 +1,6 @@
 #contact {
     padding-top: 32px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 .contact-form {
@@ -74,6 +74,29 @@
     .form-feedback {
         margin: 0;
     }
+
+.contact-form select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-top: 4px;
+  background-color: #fff;
+  color: #000;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg fill='black' viewBox='0 0 24 24' width='20' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+}
+
+.intro-form{
+    margin-bottom: 20px;
+}
+
+
 
 @media (min-width: 992px) {
     #contact {

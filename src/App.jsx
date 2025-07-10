@@ -62,7 +62,7 @@ function App() {
   {
     number: 7,
     title: 'Suporte Contínuo',
-    subTitle: 'Crescendo Juntos Todos os Dias',
+    subTitle: 'Seguimos lado a lado',
     description: 'Acompanhamento constante dos resultados, otimizações, relatórios, suporte no dia a dia e disponibilização da nossa equipe de social media para gestão contínua.',
     videoUrl: '/videos/peca7-web.mp4',
     coverImage: '/images/videos-cover/peca7.jpg'
