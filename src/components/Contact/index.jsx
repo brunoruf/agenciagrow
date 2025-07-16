@@ -86,14 +86,14 @@ const Contact = () => {
         <span className="contact-divider"></span>
         <div className="contact-numbers">
           <div>
-            <h4 className="contact-type-title paragraph-sm">Telefone</h4>
-            <a href="tel:+5511912345678" className="title contact-phone">
-              (62) 99229-6794
+            <h4 className="contact-type paragraph-md"><strong>SÃO PAULO</strong><br/><span className='paragraph-sm'>WHATSAPP E TELEFONE</span></h4>
+            <a href="https://wa.me/11970709999" className="title contact-phone" target='_blank'>
+              (11) 97070-9999
             </a>
           </div>
           <span className="contact-divider"></span>
           <div>
-            <h4 className="contact-type-title paragraph-sm">WhatsApp</h4>
+            <h4 className="contact-type paragraph-md"><strong>GOIÁS</strong><br /><span className='paragraph-sm contact-type'>WHATSAPP E TELEFONE</span></h4>
             <a href="https://wa.me/62992296794" className="title contact-phone" target='_blank' >
               (62) 99229-6794
             </a>
