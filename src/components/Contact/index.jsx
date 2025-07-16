@@ -88,14 +88,14 @@ const Contact = () => {
           <div>
             <h4 className="contact-type-title paragraph-sm">Telefone</h4>
             <a href="tel:+5511912345678" className="title contact-phone">
-              (11) 99999-9999
+              (62) 99229-6794
             </a>
           </div>
           <span className="contact-divider"></span>
           <div>
             <h4 className="contact-type-title paragraph-sm">WhatsApp</h4>
-            <a href="https://wa.me/5511999999999" className="title contact-phone">
-              (11) 99999-9999
+            <a href="https://wa.me/62992296794" className="title contact-phone" target='_blank' >
+              (62) 99229-6794
             </a>
           </div>
           <p className="paragraph-md contact-message-info">
@@ -155,7 +155,7 @@ const Contact = () => {
         </label>
 
         <label>
-          Faturamento da empresa
+          Faturamento mensal da empresa
           <select
             name="faturamento"
             value={formData.faturamento}

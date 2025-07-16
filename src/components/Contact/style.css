@@ -96,6 +96,10 @@
     margin-bottom: 20px;
 }
 
+.form-submit button {
+    margin-top: 20px;
+}
+
 
 
 @media (min-width: 992px) {

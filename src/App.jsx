@@ -17,7 +17,7 @@ function App() {
     subTitle: 'Nos conhecendo',
     description: 'Entendemos suas dores, necessidades e alinhamos os objetivos do projeto.',
     videoUrl: '/videos/peca1-web.mp4',
-    coverImage: '/images/videos-cover/peca1.jpg'
+    coverImage: 'https://img.youtube.com/vi/6bB2YIiXyio/maxresdefault.jpg'
   },
   {
     number: 2,
@@ -25,7 +25,7 @@ function App() {
     subTitle: 'Mergulho na sua marca',
     description: 'Analisamos sua empresa, conhecemos o ambiente perfis das equipes e todo o histórico de ações de marketing.',
     videoUrl: '/videos/peca2-web.mp4',
-    coverImage: '/images/videos-cover/peca2.jpg'
+    coverImage: 'https://img.youtube.com/vi/NPDCbRNWvGg/maxresdefault.jpg'
   },
   {
     number: 3,
@@ -33,7 +33,7 @@ function App() {
     subTitle: 'Inteligência que Gera Resultado',
     description: 'Realizamos uma pesquisa aprofundada de mercado, concorrência, público e posicionamento atual.',
     videoUrl: '/videos/peca3-web.mp4',
-    coverImage: '/images/videos-cover/peca3.jpg'
+    coverImage: 'https://img.youtube.com/vi/2s_IKby1GdY/maxresdefault.jpg'
   },
   {
     number: 4,
@@ -41,7 +41,7 @@ function App() {
     subTitle: 'Ideias Que Ganham Vida',
     description: 'Desenvolvemos campanhas criativas, roteiros, vídeos, fotos, design e narrativas que conectam sua marca com seu público.',
     videoUrl: '/videos/peca4-web.mp4',
-    coverImage: '/images/videos-cover/peca4.jpg'
+    coverImage: 'https://img.youtube.com/vi/PknJOm6AqjY/maxresdefault.jpg'
   },
   {
     number: 5,
@@ -49,7 +49,7 @@ function App() {
     subTitle: 'Alinhando Visões, Potencializando Times',
     description: 'Orientamos seu time interno sobre processos, comunicação, marketing e operação, garantindo que todos estejam alinhados para os próximos passos.',
     videoUrl: '/videos/peca5-web.mp4',
-    coverImage: '/images/videos-cover/peca5.jpg'
+    coverImage: 'https://img.youtube.com/vi/U-YJtm_Siwc/maxresdefault.jpg'
   },
   {
     number: 6,
@@ -57,7 +57,7 @@ function App() {
     subTitle: 'Hora de Ganhar o Mundo',
     description: 'Colocamos no ar campanhas estratégicas através de tráfego pago, redes sociais, inbound, outbound marketing e marketing tradicional, maximizando alcance e conversões.',
     videoUrl: '/videos/peca6-web.mp4',
-    coverImage: '/images/videos-cover/peca6.jpg'
+    coverImage: 'https://img.youtube.com/vi/xcTcHOjSBWI/maxresdefault.jpg'
   },
   {
     number: 7,
@@ -65,7 +65,7 @@ function App() {
     subTitle: 'Seguimos lado a lado',
     description: 'Acompanhamento constante dos resultados, otimizações, relatórios, suporte no dia a dia e disponibilização da nossa equipe de social media para gestão contínua.',
     videoUrl: '/videos/peca7-web.mp4',
-    coverImage: '/images/videos-cover/peca7.jpg'
+    coverImage: 'https://img.youtube.com/vi/zr0o8stmIWI/maxresdefault.jpg'
   }
 ];
 

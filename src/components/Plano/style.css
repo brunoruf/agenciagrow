@@ -137,6 +137,56 @@
   background: rgba(0, 0, 0, 0.7);
 }
 
+.plano-video {
+  position: relative;
+}
+
+.plano-video-border-decoration {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.border-left {
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  height: 60px;
+  width: 1px;
+  background: linear-gradient(to bottom, #8e9bf8 0%, #fd6561 100%);
+}
+
+.border-top {
+  position: absolute;
+  top: -12px;
+  left: -12px;
+  width: 60px;
+  height: 1px;
+  background: linear-gradient(90deg, #8e9bf8 0%, #fd6561 100%);
+}
+
+.border-right {
+  position: absolute;
+  bottom: -12px;
+  right: -12px;
+  height: 60px;
+  width: 1px;
+  background: linear-gradient(to bottom, #fd6561 0%, #8e9bf8 100%);
+}
+
+.border-bottom {
+  position: absolute;
+  bottom: -12px;
+  right: -12px;
+  width: 60px;
+  height: 1px;
+  background: linear-gradient(90deg, #fd6561 0%, #8e9bf8 100%);
+}
+
+
 
   @media (min-width: 992px) {
 
