@@ -58,7 +58,7 @@ const Contact = () => {
       );
 
       if (response.ok) {
-        setFeedbackMessage('Mensagem enviada com sucesso!');
+        setFeedbackMessage('Sucesso! Em breve entraremos em contato.');
         setFormData({
           nome: '',
           email: '',
@@ -98,13 +98,12 @@ const Contact = () => {
               (62) 99104-1971
             </a>
           </div>
-          <p className="paragraph-md contact-message-info">
-            Ou envie uma mensagem que responderemos em breve.
-          </p>
+
         </div>
       </div>
       <form className="contact-form" onSubmit={handleSubmit}>
-        <p className="paragraph-l intro-form"><strong>Quer saber mais em como podemos ajudar seu negócio?</strong> Preencha o formulário abaixo e nossos especialistas entrarão em contato em até 1 dia útil.</p>
+        <h3 className='title'>Quer descobrir como impulsionar o seu negócio?</h3>
+        <p className="paragraph-l intro-form">Preencha os campos abaixo e receba uma pré-análise gratuita, sem compromisso!</p>
         <label>
           Nome
           <input
@@ -187,7 +186,7 @@ const Contact = () => {
 
         <div className="form-submit">
           <button type="submit" className="button" disabled={loading}>
-            {loading ? 'Enviando...' : 'Receber mais informações'}
+            {loading ? 'Enviando...' : 'Solicitar pré-análise'}
           </button>
           <span className="form-feedback paragraph">{feedbackMessage}</span>
         </div>
