@@ -221,6 +221,22 @@ strong {
   box-shadow: 0 0 10px rgba(142, 155, 248, .6) ;
 }
 
+.button-md {
+  background: var(--main-gradient);
+  border: none;
+  border-radius: 4px;
+  color: var(--white);
+  cursor: pointer;
+  font-family: 'AtypBLDisplay', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  filter: brightness(0.9);
+  box-shadow: 0 0 10px rgba(142, 155, 248, .6) ;
+}
+
 .button:hover {
   filter: brightness(1);
 }
