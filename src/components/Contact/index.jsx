@@ -87,8 +87,8 @@ const Contact = () => {
         <div className="contact-numbers">
           <div>
             <h4 className="contact-type paragraph-md"><strong>SÃO PAULO</strong><br/><span className='paragraph-sm'>WHATSAPP E TELEFONE</span></h4>
-            <a href="https://wa.me/5511970709999" className="title contact-phone" target='_blank'>
-              (11) 97070-9999
+            <a href="https://wa.me/5511988291011" className="title contact-phone" target='_blank'>
+              (11) 98829-1011
             </a>
           </div>
           <span className="contact-divider"></span>
