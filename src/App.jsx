@@ -6,6 +6,8 @@ import Plano from './components/Plano';
 import Founder from './components/Founder';
 import Cases from './components/Cases';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
+import LgpdConsent from './components/LgpdConsent/LgpdConsent';
 
 
 function App() {
@@ -99,6 +101,8 @@ function App() {
     <Founder />
     <Cases />
     <Contact />
+    <Footer />
+    <LgpdConsent />
     </>
   )
 }
